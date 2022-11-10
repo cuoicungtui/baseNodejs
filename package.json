@@ -1,0 +1,41 @@
+{
+  "name": "basenodejs",
+  "version": "1.0.0",
+  "description": "base",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuoicungtui/baseNodejs.git"
+  },
+  "keywords": [
+    "baseNodejs"
+  ],
+  "author": "quocdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuoicungtui/baseNodejs/issues"
+  },
+  "homepage": "https://github.com/cuoicungtui/baseNodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "mongoose": "^5.2.1",
+    "monk": "^7.3.4",
+    "morgan": "^1.10.0",
+    "redis": "^4.4.0",
+    "rfs": "^9.0.6",
+    "rotating-file-stream": "^3.0.4",
+    "string-env-parser": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
